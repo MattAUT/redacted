@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{6c03e6fe-f1fd-497d-8124-432f3956ea33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6fe0f81a-4972-45df-8299-01e399100531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{158df3c6-73af-4220-a3f7-2ff5421af78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI\Headers">
+      <UniqueIdentifier>{3a8ba767-df87-44dc-88b1-8b78bd841e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI\Source">
+      <UniqueIdentifier>{9f779f62-4c8c-4cdc-aa56-9e332cca11f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer">
+      <UniqueIdentifier>{dfec1aa6-b7fe-45e0-a673-3e348c3cdb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Headers">
+      <UniqueIdentifier>{5522ee6c-c962-4e81-b3da-acc3d24ad2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Renderer\Source">
+      <UniqueIdentifier>{a2318676-1c6c-47ca-a797-7d236813ee4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Input">
+      <UniqueIdentifier>{ce992bdc-c680-46c7-bf04-80b9c598adaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes">
+      <UniqueIdentifier>{e72efdac-a80d-4368-bfc6-32b10261fb86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entity">
+      <UniqueIdentifier>{230aba55-3a14-452f-b77e-74d0e44a3d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{abacdcde-1310-4ad5-bc7b-c43d888f4d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Headers">
+      <UniqueIdentifier>{81e45c26-b506-46a3-a52e-bd6975bf21fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Source">
+      <UniqueIdentifier>{2e853fc0-1fd4-48d6-94b4-6cd29d2d0399}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game">
+      <UniqueIdentifier>{2d409d76-9777-4942-bc3f-6a7f67fc42fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities">
+      <UniqueIdentifier>{3f329ea5-d8b0-43f1-b11e-40f1d36d2485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Source">
+      <UniqueIdentifier>{1d1378af-e5f7-42f5-9010-f4eb403cc1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entities\Headers">
+      <UniqueIdentifier>{0a3a1482-6109-49fe-8957-978ad4bdf836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{6dc7ce0f-6c15-47c2-b316-3667bb212e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Statics">
+      <UniqueIdentifier>{44d7a5b1-b22c-455d-a2e2-37435d9f3806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Statics\Headers">
+      <UniqueIdentifier>{2879ee70-ca43-42e2-8123-6478f2f9658b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Statics\Source">
+      <UniqueIdentifier>{9d912ac0-5247-4037-96f3-27595255e263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sound">
+      <UniqueIdentifier>{481b2b51-d7e5-4552-a0a7-7e6adf66656f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Abilities">
+      <UniqueIdentifier>{1e108213-d6e2-4d04-83b7-e2206ae75518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Abilities">
+      <UniqueIdentifier>{44ef7701-ec14-4377-8541-c897a6f2f53f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scenes\Level Data">
+      <UniqueIdentifier>{2c5c6011-12b5-4e6e-94f8-ba106bb8be9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Particle">
+      <UniqueIdentifier>{61c4465c-af37-44fe-b1fc-88c5fbfc5c92}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils\vertexarray.h">
+      <Filter>Utils\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\logmanager.h">
+      <Filter>Utils\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\matrix4.h">
+      <Filter>Utils\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Utils\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\vector2.h">
+      <Filter>Utils\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\renderer.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\shader.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\sprite.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\spritesheetanimation.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\texture.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\texturemanager.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imstb_rectpack.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imstb_textedit.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imstb_truetype.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imconfig.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imgui.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imgui_impl_opengl3.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imgui_impl_sdl.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lib\imgui\imgui_internal.h">
+      <Filter>IMGUI\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ini.h">
+      <Filter>Utils\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\camera.h">
+      <Filter>Engine\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\soundmanager.h">
+      <Filter>Engine\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scenesplash.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\entity.h">
+      <Filter>Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\id.h">
+      <Filter>Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\input.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\xinputcontroller.h">
+      <Filter>Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\scenemanager.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scenecontrollertest.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scenemenu.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scenelevelgeneratortesting.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="game\scenebox2dlevel.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Game\Entities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="collectable.h">
+      <Filter>Game\Entities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Game\Entities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\enemy.h">
+      <Filter>Game\Entities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="playerstorage.h">
+      <Filter>Game\Entities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionlistener.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="abilitymanager.h">
+      <Filter>Engine\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ability.h">
+      <Filter>Engine\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="abilitysmokebomb.h">
+      <Filter>Game\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="abilityflashlight.h">
+      <Filter>Game\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="abilitytranqdart.h">
+      <Filter>Game\Abilities</Filter>
+    </ClInclude>
+    <ClInclude Include="game\safearea.h">
+      <Filter>Game\Entities\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\raycastcallback.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\tile.h">
+      <Filter>Game\Statics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\tilecontainer.h">
+      <Filter>Game\Statics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\particleemitter.h">
+      <Filter>Engine\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="engine\particle.h">
+      <Filter>Engine\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>Game\Statics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionCreation.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="currentLevelLoaded.h">
+      <Filter>Game\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="pausescreen.h">
+      <Filter>Game\Statics\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="raycastquery.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="mainmenu.h">
+      <Filter>Game\Statics\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils\logmanager.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\matrix4.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\vector2.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\vertexarray.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\renderer.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\texturemanager.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\texture.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\spritesheetanimation.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\sprite.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\shader.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_demo.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_draw.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_impl_opengl3.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_impl_sdl.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_tables.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lib\imgui\imgui_widgets.cpp">
+      <Filter>IMGUI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ini.cpp">
+      <Filter>Utils\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\camera.cpp">
+      <Filter>Engine\Renderer\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\soundmanager.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scenesplash.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\entity.cpp">
+      <Filter>Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\id.cpp">
+      <Filter>Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\input.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\xinputcontroller.cpp">
+      <Filter>Engine\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\scenemanager.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scenecontrollertest.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scenemenu.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scenelevelgeneratortesting.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game\scenebox2dlevel.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Game\Entities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="collectable.cpp">
+      <Filter>Game\Entities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Game\Entities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game\enemy.cpp">
+      <Filter>Game\Entities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="playerstorage.cpp">
+      <Filter>Game\Entities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionlistener.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="abilitymanager.cpp">
+      <Filter>Engine\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ability.cpp">
+      <Filter>Engine\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="abilitysmokebomb.cpp">
+      <Filter>Game\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="abilityflashlight.cpp">
+      <Filter>Game\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="abilitytranqdart.cpp">
+      <Filter>Game\Abilities</Filter>
+    </ClCompile>
+    <ClCompile Include="game\safearea.cpp">
+      <Filter>Game\Entities\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game\raycastcallback.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\tile.cpp">
+      <Filter>Game\Statics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="game\tilecontainer.cpp">
+      <Filter>Game\Statics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\particleemitter.cpp">
+      <Filter>Engine\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="engine\particle.cpp">
+      <Filter>Engine\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="hud.cpp">
+      <Filter>Game\Statics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionCreation.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="currentLevelLoaded.cpp">
+      <Filter>Game\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="pausescreen.cpp">
+      <Filter>Game\Statics\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="raycastquery.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenu.cpp">
+      <Filter>Game\Statics\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\game\assets\levels\enemy.loc">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+    <None Include="..\game\assets\levels\items.dta">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+    <None Include="..\game\assets\levels\items.loc">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+    <None Include="..\game\assets\levels\tiles.loc">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+    <None Include="..\game\assets\levels\enemy.dta">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+    <None Include="..\game\assets\levels\wallPhysics.loc">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+    <None Include="..\game\assets\levels\navmesh.loc">
+      <Filter>Game\Scenes\Level Data</Filter>
+    </None>
+  </ItemGroup>
+</Project>

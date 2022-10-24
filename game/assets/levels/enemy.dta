@@ -1,0 +1,12 @@
+[enemy]
+0cnodes=2
+0x0pos=7,6
+0x0con=1
+0x1pos=6,20
+0x1con=0
+1cnodes=2
+1x0pos=20,20
+1x0con=1
+1x1pos=20,6
+1x1con=0
+
